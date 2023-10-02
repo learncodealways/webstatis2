@@ -1,5 +1,31 @@
+body
+{
+background-color: #333;
+}
+
 .top-bar{
-    width: 200px;
-    background-color: black;
-    height: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: lightblue;
+    border-bottom:3px solid white ;
+
+}
+
+.brand{
+    
+    position: absolute;
+    top: -10px;
+    left: 50px;
+  
+}
+
+.learn{
+    color: white;
+}
+
+.ing-Fast{
+    font-style: italic;
 }
