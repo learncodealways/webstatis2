@@ -9,9 +9,9 @@ box-sizing: border-box;
     top: 0;
     left: 0;
     right: 0;
-    height: 50px;
-    background-color: lightblue;
-    border-bottom:3px solid #333;
+    height: 60px;
+    background-color: rgba(24, 61, 61,1);
+    box-sizing: border-box;
     padding: 10px;
 
 }
@@ -30,6 +30,7 @@ box-sizing: border-box;
 
 .ing-Fast{
     font-style: italic;
+    color: white;
 }
 
 .fotos{
@@ -59,7 +60,8 @@ a{
     display: inline-block;
     width: 70px;
     text-decoration: none;
-    color: #333;
+    color: #fff;
+    box-sizing: border-box;
   
 }
 
