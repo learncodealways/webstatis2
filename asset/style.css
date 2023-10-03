@@ -1,6 +1,6 @@
 body
 {
-background-color: #333;
+background-color: #fff;
 }
 
 .top-bar{
@@ -10,7 +10,7 @@ background-color: #333;
     right: 0;
     height: 60px;
     background-color: lightblue;
-    border-bottom:3px solid white ;
+    border-bottom:3px solid #333
 
 }
 
