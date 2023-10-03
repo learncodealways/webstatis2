@@ -48,3 +48,23 @@ a .my-foto{
     height: 50px;
     border-radius: 50%;
 }
+
+.drop-down{
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+
+a{
+    display: inline-block;
+    width: 70px;
+    text-decoration: none;
+    color: #333;
+  
+}
+
+a:hover{
+ color: blue;   
+ font-style: italic;
+ 
+}
