@@ -10,7 +10,7 @@ box-sizing: border-box;
     left: 0;
     right: 0;
     height: 60px;
-    background-color: rgba(24, 61, 61,1);
+    background-color: rgb(53, 162, 159);
     box-sizing: border-box;
     padding: 10px;
 
@@ -21,6 +21,7 @@ box-sizing: border-box;
     position: absolute;
     top: -10px;
     left: 50px;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
   
 }
 
@@ -69,4 +70,73 @@ a:hover{
  color: blue;   
  font-style: italic;
  
+}
+
+
+
+
+ .kotak{
+    margin: 100px 50px;
+    width: 400px;
+    height: 200px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+border-radius: 10px;
+position: relative;
+box-sizing: border-box;
+
+ }
+
+ .kode{
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  background-color: #4477CE;
+  padding: 8px;
+  border-radius: 6px;
+
+}
+
+.code{
+ color: #fff;
+ font-weight: bold;
+}
+
+
+.basic-web{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.judul{
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+}
+
+.sub-judul{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+.penjelasan{
+    font-size: 14px;
+    color: #84A7A1;
+    
+}
+
+.chevron{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
+
+.fundamental{
+    color: #000;
+   
+}
+
+.fundamental:hover{
+    color: #000;
 }
