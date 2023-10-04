@@ -10,7 +10,11 @@ box-sizing: border-box;
     left: 0;
     right: 0;
     height: 60px;
-    background-color: rgb(53, 162, 159);
+    /* background-color: rgb(53, 162, 159); */
+    /* background-color: rgb(202, 237, 255); */
+    /* round-color: rgb(142, 172, 205);backg */
+    /* background-color: rgb(100, 204, 197); */
+    background-color: rgb(100, 153, 233);
     box-sizing: border-box;
     padding: 10px;
 
@@ -27,6 +31,7 @@ box-sizing: border-box;
 
 .learn{
     color: white;
+    
 }
 
 .ing-Fast{
@@ -86,6 +91,7 @@ border-radius: 10px;
 position: relative;
 box-sizing: border-box;
 
+
  }
 
  .kode{
@@ -101,6 +107,7 @@ box-sizing: border-box;
 .FE{
     width: 50px;
 
+
 }
 
 .code{
@@ -112,12 +119,15 @@ box-sizing: border-box;
 .basic-web{
     font-size: 18px;
     font-weight: bold;
+   
+
 }
 
 .judul{
     position: absolute;
     bottom: 80px;
     left: 50px;
+
 }
 
 .sub-judul{
@@ -128,6 +138,7 @@ box-sizing: border-box;
 .penjelasan{
     font-size: 14px;
     color: #84A7A1;
+   
     
 }
 
@@ -205,4 +216,16 @@ box-sizing: border-box;
     font-size: 14px;
     color: #84A7A1;
     
+   }
+
+   .flag{
+    width: 53px;
+    height: 34px;
+    background-image: linear-gradient(red 50%, white 50%);
+    box-shadow: 0 .2px 0px ;
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    border-radius: 6px;
+    border: 1px solid #333;
    }

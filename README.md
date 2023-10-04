@@ -45,4 +45,32 @@ Contoh: box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.5); akan menambahkan bayanga
 Penggunaan: Properti text-shadow digunakan untuk menambahkan bayangan pada teks dalam elemen HTML. Nilai-nilainya adalah offset-x, offset-y, blur-radius, dan warna bayangan.
 Contoh: text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); akan menambahkan bayangan teks dengan 1 piksel ke arah kanan dan 1 piksel ke bawah, radius blur 2 piksel, dan warna bayangan setengah transparan.
 
+7. Linear-gradient
+
+ CSS3 properti "linear gradient" digunakan untuk membuat latar belakang elemen HTML dengan gradien warna yang bergerak sepanjang garis lurus. Ini adalah cara yang bagus untuk memberi elemen tampilan visual yang menarik. Mari kita bahas dengan lebih detail:
+
+Properti: background-image
+
+Nilai: linear-gradient
+
+background-image: linear-gradient(to right, red, yellow);
+
+Penjelasan:
+
+background-image: Ini adalah properti CSS yang digunakan untuk mengatur gambar latar belakang elemen HTML.
+
+linear-gradient: Ini adalah nilai dari properti background-image yang digunakan untuk menciptakan gradien linear. Ini mengindikasikan bahwa Anda akan membuat latar belakang dengan gradien yang bergerak sepanjang garis lurus.
+
+to right: Ini adalah arah gradien, yang menunjukkan bahwa gradiennya akan bergerak dari kiri ke kanan. Anda dapat mengganti ini dengan arah lain seperti to left, to top, atau to bottom sesuai kebutuhan.
+
+red dan yellow: Ini adalah warna-warna yang akan digunakan dalam gradien. Di sini, gradiennya akan dimulai dengan warna merah (di sisi kiri) dan berubah menjadi warna kuning (di sisi kanan).
+
+Jadi, dalam contoh di atas, elemen dengan properti ini akan memiliki latar belakang gradien linear yang berubah dari merah ke kuning dari kiri ke kanan. Anda dapat mengganti warna dan arah sesuai dengan preferensi desain Anda.
+
+
+
+
+
+
+
 
