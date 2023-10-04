@@ -75,7 +75,7 @@ a:hover{
 
 
 
- .kotak{
+ .kotak1{
     margin: 100px 50px;
     width: 400px;
     height: 200px;
@@ -95,7 +95,7 @@ box-sizing: border-box;
   background-color: #4477CE;
   padding: 8px;
   border-radius: 6px;
-
+  
 }
 
 .code{
@@ -140,3 +140,39 @@ box-sizing: border-box;
 .fundamental:hover{
     color: #000;
 }
+
+.kotak2{
+    margin: 100px 8 0px;
+    width: 400px;
+    height: 200px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+border-radius: 10px;
+position: relative;
+top: -303px;
+left: 500px;
+box-sizing: border-box;
+
+}
+
+.styling{
+    color: #000;
+}
+
+.styling:hover{
+    color: #000;
+}
+
+/* .css{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    background-color: #4477CE;
+    padding: 8px;
+    border-radius: 6px;
+    width: 20px;
+    }    */
+
+
+   
