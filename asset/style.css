@@ -169,15 +169,40 @@ box-sizing: border-box;
     color: #000;
 }
 
-/* .css{
+.css{
     position: absolute;
     top: 20px;
     left: 50px;
-    background-color: #4477CE;
+    /* background-color: #4477CE; */
     padding: 8px;
     border-radius: 6px;
     width: 20px;
-    }    */
+    }   
 
 
-   
+    .BE{
+        width: 50px;
+    }
+
+    .be-judul{
+        position: absolute;
+        bottom: 80px;
+        left: 50px;
+    
+    }
+
+    .be{
+        font-weight: bold;
+    }
+
+   .be-subjudul{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+   }
+
+   .be-sub{
+    font-size: 14px;
+    color: #84A7A1;
+    
+   }
