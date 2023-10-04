@@ -92,10 +92,15 @@ box-sizing: border-box;
   position: absolute;
   top: 20px;
   left: 50px;
-  background-color: #4477CE;
+  /* background-color: #4477CE; */
   padding: 8px;
   border-radius: 6px;
   
+}
+
+.FE{
+    width: 50px;
+
 }
 
 .code{
