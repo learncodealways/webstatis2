@@ -69,6 +69,31 @@ Jadi, dalam contoh di atas, elemen dengan properti ini akan memiliki latar belak
 
 
 
+8. Radial-gradient
+
+Properti CSS3 Radial Gradient digunakan untuk membuat latar belakang elemen HTML dengan gradasi berbentuk lingkaran atau elips. Ini memberikan efek visual yang menarik dan sering digunakan dalam desain web modern.
+
+Anda dapat mendefinisikan gradasi radial dengan menggunakan properti background-image dan nilai radial-gradient(). Berikut contoh sintaksnya:
+background-image: radial-gradient(shape size at position, color-stops);
+
+Mari kita bahas nilai-nilai yang digunakan dalam properti ini:
+
+shape: Ini mengacu pada bentuk gradasi radial. Biasanya, Anda dapat menggunakan nilai circle untuk gradasi lingkaran, atau ellipse untuk gradasi elips. Anda juga dapat mengatur bentuk kustom jika diperlukan.
+
+size: Menentukan ukuran gradasi radial. Anda dapat menggunakan nilai-nilai seperti closest-side, closest-corner, farthest-side, atau farthest-corner. Ini mempengaruhi seberapa besar atau kecil gradasi tersebut.
+
+at position: Menentukan posisi pusat gradasi radial. Ini dapat berupa nilai dalam satuan seperti piksel atau persentase, atau bahkan kata kunci seperti center untuk tengah elemen.
+
+color-stops: Ini adalah daftar warna yang menggambarkan cara warna akan beralih dalam gradasi. Anda dapat menentukan dua atau lebih warna dengan nilai-nilai persentase yang memisahkan mereka. Misalnya, red 0%, blue 50%, green 100% akan memberikan gradasi dari merah ke biru hingga hijau.
+
+Contoh penggunaan properti CSS3 radial gradient:
+background-image: radial-gradient(circle at 50% 50%, #FF0000, #0000FF);
+Dalam contoh ini, kita membuat gradasi lingkaran dengan pusat di tengah elemen dan beralih dari merah ke biru.
+
+
+
+
+
 
 
 
