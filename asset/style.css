@@ -9,6 +9,14 @@ background-color: #fff;
 }
 
 @font-face {
+    font-family: 'courier_prime_coderegular';
+    src: url('../asset/style/courier_prime_code-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
     font-family: 'Courier Prime Code';
     src: url('../asset/style/Courier Prime Code.ttf') format('truetype');
 }
@@ -158,7 +166,7 @@ border: none;
 
 .basic-web{
     font-size: 18px;
-    font-family: 'Courier Prime Code';
+    font-family: 'courier_prime_coderegular';
     font-weight: bold;
     color: #333;
     color: #131313;
@@ -272,7 +280,7 @@ transition: .8s ;
 
     .be{
         font-weight: bold;
-        font-family: 'Courier Prime Code';
+        font-family: 'courier_prime_coderegular';
         color: #333;
         color: #444444;
 background: #FFFFFF;
