@@ -8,6 +8,11 @@ background-color: #fff;
 /* background-color: #343a40; */
 }
 
+@font-face {
+    font-family: 'Courier Prime Code';
+    src: url('../asset/style/Courier Prime Code.ttf') format('truetype');
+}
+
 .top-bar{
     position: fixed;
     top: 0;
@@ -153,6 +158,7 @@ border: none;
 
 .basic-web{
     font-size: 18px;
+    font-family: 'Courier Prime Code';
     font-weight: bold;
     color: #333;
     color: #131313;
@@ -266,6 +272,7 @@ transition: .8s ;
 
     .be{
         font-weight: bold;
+        font-family: 'Courier Prime Code';
         color: #333;
         color: #444444;
 background: #FFFFFF;
