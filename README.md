@@ -92,6 +92,50 @@ Dalam contoh ini, kita membuat gradasi lingkaran dengan pusat di tengah elemen d
 
 
 
+9.  @font-face
+
+berikut penjelasan yang jelas dan mudah dimengerti mengenai properti CSS3 @font-face dan nilai-nilainya:
+
+@font-face adalah aturan CSS yang digunakan untuk memuat jenis huruf (font) khusus pada halaman web. Ini memungkinkan Anda menggunakan jenis huruf yang tidak umum atau tidak tersedia secara default di perangkat pengguna.
+
+Nilai-nilai utama yang digunakan dalam properti @font-face adalah:
+
+font-family: Ini adalah nama yang Anda berikan pada font yang akan Anda gunakan. Ini adalah nilai yang Anda akan gunakan saat mengatur font-family di elemen-elemen HTML. Misalnya, font-family: 'NamaFont';.
+
+src: Ini menentukan sumber atau lokasi dari file font yang akan digunakan. Anda dapat menggunakan URL untuk merujuk ke file font, baik itu di server Anda sendiri atau di luar sumber daya seperti Google Fonts. Contoh: src: url('path/ke/font.woff2') format('woff2');.
+
+font-weight: Ini mengatur ketebalan font. Nilainya bisa berupa angka (100 hingga 900) atau kata-kata kunci seperti normal atau bold.
+
+font-style: Ini mengatur gaya font seperti miring (italic) atau normal. Nilainya bisa berupa kata kunci seperti normal, italic, atau oblique.
+
+font-display: Ini mengontrol perilaku tampilan font jika font tidak dapat diunduh dengan cepat. Nilainya bisa berupa auto (perilaku default), swap (font akan diganti dengan font alternatif jika tidak dapat diunduh), fallback (menampilkan font alternatif jika font utama tidak ada), atau optional (font adalah opsional dan tidak mempengaruhi tampilan sampai diminta).
+
+Contoh penggunaan @font-face dalam CSS:
+
+@font-face {
+  font-family: 'NamaFont';
+  src: url('path/ke/font.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+Dalam contoh di atas, kita mendefinisikan @font-face dengan nama font 'NamaFont', mengarahkan ke file font dengan format WOFF2, dan mengatur berat dan gaya font. Selain itu, kami menggunakan font-display: swap sehingga jika font tidak dapat diunduh dengan cepat, itu akan digantikan dengan font alternatif sampai font utama diunduh.
+
+Setelah mendefinisikan @font-face, Anda dapat menggunakannya dengan font-family pada elemen-elemen HTML seperti ini:
+
+body {
+  font-family: 'NamaFont', sans-serif;
+}
+Ini akan mengatur font 'NamaFont' untuk digunakan pada seluruh teks dalam elemen <body>, dan jika font tidak tersedia, akan menggunakan jenis huruf sans-serif sebagai alternatif.
+
+
+
+
+
+
+
+
+
 
 
 
