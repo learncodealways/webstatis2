@@ -159,6 +159,105 @@ Kode di atas akan menerapkan efek blur sebesar 5 piksel dan meningkatkan kontras
 CSS3 filter adalah fitur yang powerful yang dapat digunakan untuk membuat tampilan web menjadi lebih menarik dan interaktif.
 
 
+11. Transform 
+
+Properti transform CSS3 memiliki beberapa properti yang dapat digunakan untuk mengubah posisi, ukuran, dan orientasi elemen. Properti-properti tersebut adalah:
+
+translate(): Menggeser elemen ke arah tertentu. Value-nya adalah jumlah pergeseran dalam satuan piksel atau persentase.
+rotate(): Memutar elemen dengan sudut tertentu. Value-nya adalah sudut rotasi dalam derajat atau radian.
+scale(): Menskala elemen dengan faktor tertentu. Value-nya adalah faktor skala untuk lebar dan tinggi elemen.
+skew(): Memiringkan elemen dengan sudut tertentu. Value-nya adalah sudut kemiringan untuk sumbu X dan sumbu Y.
+matrix(): Mengubah posisi, ukuran, dan orientasi elemen dengan menggunakan matriks 4x4.
+matrix3d(): Mengubah posisi, ukuran, dan orientasi elemen dengan menggunakan matriks 4x4 dalam ruang 3D.
+perspective(): Menentukan perspektif untuk elemen 3D.
+Berikut adalah penjelasan singkat dari masing-masing properti tersebut:
+
+translate()
+Properti translate() digunakan untuk menggeser elemen ke arah tertentu. Value-nya adalah jumlah pergeseran dalam satuan piksel atau persentase.
+
+Contoh:
+
+CSS
+div {
+  transform: translate(100px, 50px);
+}
+Use code with caution. Learn more
+Kode CSS di atas akan menggeser elemen 100px ke kanan dan 50px ke bawah.
+
+rotate()
+Properti rotate() digunakan untuk memutar elemen dengan sudut tertentu. Value-nya adalah sudut rotasi dalam derajat atau radian.
+
+Contoh:
+
+CSS
+div {
+  transform: rotate(90deg);
+}
+Use code with caution. Learn more
+Kode CSS di atas akan memutar elemen 90 derajat searah jarum jam.
+
+scale()
+Properti scale() digunakan untuk menskala elemen dengan faktor tertentu. Value-nya adalah faktor skala untuk lebar dan tinggi elemen.
+
+Contoh:
+
+CSS
+div {
+  transform: scale(2);
+}
+Use code with caution. Learn more
+Kode CSS di atas akan menskala elemen dua kali ukuran aslinya.
+
+skew()
+Properti skew() digunakan untuk memiringkan elemen dengan sudut tertentu. Value-nya adalah sudut kemiringan untuk sumbu X dan sumbu Y.
+
+Contoh:
+
+CSS
+div {
+  transform: skew(30deg, 0deg);
+}
+Use code with caution. Learn more
+Kode CSS di atas akan memiringkan elemen 30 derajat ke kiri.
+
+matrix()
+Properti matrix() digunakan untuk mengubah posisi, ukuran, dan orientasi elemen dengan menggunakan matriks 4x4.
+
+Contoh:
+
+CSS
+div {
+  transform: matrix(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0);
+}
+Use code with caution. Learn more
+Kode CSS di atas akan menggeser elemen ke tengah layar.
+
+matrix3d()
+Properti matrix3d() digunakan untuk mengubah posisi, ukuran, dan orientasi elemen dengan menggunakan matriks 4x4 dalam ruang 3D.
+
+Contoh:
+
+CSS
+div {
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+}
+Use code with caution. Learn more
+Kode CSS di atas akan menggeser elemen ke tengah layar dalam ruang 3D.
+
+perspective()
+Properti perspective() digunakan untuk menentukan perspektif untuk elemen 3D.
+
+Contoh:
+
+CSS
+div {
+  transform: perspective(1000px);
+}
+Use code with caution. Learn more
+Kode CSS di atas akan membuat elemen 3D tampak lebih jauh.
+
+Dengan memahami properti-properti transform CSS3, Anda dapat membuat berbagai macam efek transformasi untuk halaman web Anda.
+
 
 
 

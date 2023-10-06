@@ -72,6 +72,7 @@ background-color: #fff;
 color: #333;
 /* background: #FFFFFF; */
 text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+filter: drop-shadow(0px -25px 5px rgba(79,79,79,1));
 
     
 }
@@ -85,6 +86,7 @@ text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
 color: #333;
 /* background: #FFFFFF; */
 text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+filter: drop-shadow(0px -25px 5px rgba(79,79,79,1));
 }
 
 .fotos{
@@ -247,6 +249,10 @@ box-sizing: border-box;
 background-color: #fff;
 border: 2px solid #343a40;
 transition: .8s ;
+/* transform: perspective(1000px); */
+/* transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); */
+/* transform: skew(30deg, 0deg); */
+/* transform: translate(100px, 50px); */
 
 
 }
@@ -328,5 +334,21 @@ text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 
     border: 1px solid #fff;
    }
 
+
+   .cube {
+    transform-style: preserve-3d;
+    perspective: 1000px;
+  }
+  
+  .face {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+ 
 
   
