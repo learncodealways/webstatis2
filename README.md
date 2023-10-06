@@ -131,6 +131,36 @@ Ini akan mengatur font 'NamaFont' untuk digunakan pada seluruh teks dalam elemen
 
 
 
+10. Filter 
+
+CSS3 filter adalah properti yang digunakan untuk menerapkan efek visual pada elemen, seperti blur, brightness, contrast, dan lainnya. Efek filter ini biasanya digunakan untuk menyesuaikan tampilan gambar, latar belakang, dan border.
+
+Value dari properti CSS3 filter adalah fungsi filter yang dapat digunakan untuk menghasilkan efek visual tertentu. Berikut adalah beberapa fungsi filter yang tersedia:
+
+blur() : Mengaplikasikan efek blur pada elemen. Nilainya adalah angka yang menunjukkan ukuran blur, dalam piksel.
+brightness() : Mengatur kecerahan elemen. Nilainya adalah angka dari 0 hingga 100, di mana 0 adalah hitam dan 100 adalah putih.
+contrast() : Mengatur kontras elemen. Nilainya adalah angka dari 0 hingga 100, di mana 0 adalah kontras rendah dan 100 adalah kontras tinggi.
+drop-shadow() : Menambahkan bayangan pada elemen. Nilainya adalah objek yang menentukan posisi, ukuran, warna, dan transparasi bayangan.
+grayscale() : Mengubah elemen menjadi hitam putih. Nilainya adalah angka dari 0 hingga 100, di mana 0 adalah hitam putih sepenuhnya dan 100 adalah warna asli.
+hue-rotate() : Mengubah hue elemen. Nilainya adalah angka dalam derajat.
+invert() : Mengembalikan warna elemen.
+opacity() : Mengatur transparansi elemen. Nilainya adalah angka dari 0 hingga 1, di mana 0 adalah transparan sepenuhnya dan 1 adalah tidak transparan.
+saturate() : Mengatur saturasi elemen. Nilainya adalah angka dari 0 hingga 100, di mana 0 adalah tidak berwarna dan 100 adalah warna asli.
+sepia() : Mengubah elemen menjadi warna sepia.
+Fungsi filter dapat digabungkan untuk menghasilkan efek visual yang lebih kompleks. Misalnya, kita dapat menggunakan fungsi blur() dan contrast() secara bersamaan untuk membuat gambar menjadi blur dan kontras.
+
+Berikut adalah contoh penerapan properti CSS3 filter:
+
+HTML
+<img src="image.jpg" style="filter: blur(5px) contrast(1.5)">
+Use code with caution. Learn more
+Kode di atas akan menerapkan efek blur sebesar 5 piksel dan meningkatkan kontras gambar sebesar 50%.
+
+CSS3 filter adalah fitur yang powerful yang dapat digunakan untuk membuat tampilan web menjadi lebih menarik dan interaktif.
+
+
+
+
 
 
 
