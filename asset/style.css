@@ -15,10 +15,18 @@ background-color: #fff;
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'roboto-thin-webfont';
+    src: url('../asset/style/roboto-thin-webfont.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'Courier Prime Code';
     src: url('../asset/style/Courier Prime Code.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .top-bar{
@@ -201,6 +209,7 @@ text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 
     font-size: 14px;
     /* color: #84A7A1; */
     color: #333;
+    font-family: 'roboto-thin-webfont';
    
     
 }
@@ -302,6 +311,7 @@ text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 
     font-size: 14px;
     /* color: #84A7A1; */
     color: #333;
+    font-family: 'roboto-thin-webfont';
     
     
    }
