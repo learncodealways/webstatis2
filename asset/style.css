@@ -43,6 +43,7 @@ background-color: #fff;
     border-bottom: 2px solid #F3FDE8;
     box-sizing: border-box;
     padding: 10px;
+    z-index: 999;
 
 }
 
@@ -120,16 +121,18 @@ a:hover{
 
 
  .kotak1{
-    margin: 100px 50px;
-    width: 400px;
-    height: 200px;
+    margin: 100px 0;
+    width: 450px;
+    height: 250px;
 border-radius: 10px;
 position: relative;
 box-sizing: border-box;
 background-color: #fff;
 /* background-color: #343a40; */
-border: 1px solid  #343a40;
+border: 2px solid  #343a40;
 transition: .8s;
+left: 175px;
+
  }
 .kotak1:hover{
     -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
@@ -223,18 +226,19 @@ text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 
 }
 
 .kotak2{
-    margin: 100px 8 0px;
-    width: 400px;
-    height: 200px;
+    margin: 100px 0;
+    width: 450px;
+    height: 250px;
     
 border-radius: 10px;
 position: relative;
-top: -303px;
-left: 500px;
+top: -454px;
+left: 650px;
 box-sizing: border-box;
 background-color: #fff;
-border: 1px solid #343a40;
+border: 2px solid #343a40;
 transition: .8s ;
+
 
 }
 
@@ -280,6 +284,7 @@ transition: .8s ;
 
     .be{
         font-weight: bold;
+        font-size: 18px;
         font-family: 'courier_prime_coderegular';
         color: #333;
         color: #444444;
@@ -313,3 +318,5 @@ text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 
     border: 1px solid #fff;
    }
 
+
+  
