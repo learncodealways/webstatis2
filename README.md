@@ -325,6 +325,46 @@ Gunakan nilai delay untuk membuat animasi lebih menarik.
 
 
 
+13. <h3>Animation</h3>
+
+
+CSS3 Animation adalah salah satu fitur dalam Cascading Style Sheets (CSS) yang memungkinkan Anda untuk membuat efek animasi pada elemen-elemen HTML tanpa menggunakan JavaScript atau teknologi animasi lainnya. Animasi ini dapat digunakan untuk menambahkan pergerakan, perubahan warna, dan transisi visual lainnya pada elemen-elemen halaman web Anda. Properti CSS3 Animation adalah kunci dalam mengendalikan animasi, dan ada beberapa nilai yang dapat digunakan dalam properti ini. Berikut adalah penjelasan singkat tentang properti CSS3 Animation beserta valuenya:
+
+1. `animation-name`: Menentukan nama dari animasi yang akan digunakan. Anda perlu mendefinisikan animasi dengan nama ini terlebih dahulu menggunakan aturan `@keyframes`.
+
+2. `animation-duration`: Menentukan berapa lama animasi akan berlangsung dalam satuan detik (s atau ms).
+
+3. `animation-timing-function`: Menentukan bagaimana perubahan properti animasi akan terjadi selama animasi. Beberapa nilai yang umum digunakan adalah `ease` (perubahan lambat di awal dan akhir animasi), `linear` (perubahan konstan sepanjang animasi), `ease-in` (perubahan lambat di awal), `ease-out` (perubahan lambat di akhir), dan lainnya.
+
+4. `animation-delay`: Menentukan waktu tunda sebelum animasi dimulai dalam satuan detik (s atau ms).
+
+5. `animation-iteration-count`: Menentukan berapa kali animasi akan diulang. Nilai yang umum adalah `infinite` untuk animasi berulang tanpa henti atau angka untuk jumlah iterasi tertentu.
+
+6. `animation-direction`: Menentukan arah perubahan properti animasi. Beberapa nilai umum adalah `normal` (dari awal ke akhir), `reverse` (dari akhir ke awal), `alternate` (bolak-balik antara awal dan akhir), dan `alternate-reverse` (bolak-balik dari akhir ke awal).
+
+7. `animation-fill-mode`: Menentukan bagaimana elemen akan tampil sebelum dan setelah animasi. Nilai yang umum adalah `none` (tanpa perubahan sebelum atau setelah animasi), `forwards` (elemen akan tetap dalam keadaan akhir animasi setelah animasi selesai), `backwards` (elemen akan berada dalam keadaan awal animasi sebelum animasi dimulai), dan `both` (kombinasi dari `forwards` dan `backwards`).
+
+8. `animation-play-state`: Menentukan apakah animasi sedang berjalan (`running`) atau dijeda (`paused`).
+
+Contoh penggunaan properti CSS3 Animation:
+
+```css
+.element {
+  animation-name: myanimation;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+}
+```
+
+Dalam contoh di atas, animasi dengan nama "myanimation" akan berjalan selama 2 detik, menggunakan efek perubahan `ease-in-out`, dimulai setelah 0.5 detik tunda, berulang tanpa henti dengan arah bolak-balik, dan elemen akan tetap dalam keadaan akhir animasi setelah selesai berkat `animation-fill-mode` yang diatur ke `forwards`.
+
+
+--------------------------------------------------------------------------------------------------------
 
 
 
