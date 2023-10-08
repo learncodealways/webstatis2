@@ -44,7 +44,7 @@ background-color: #ffff;
     height: 60px;
     /* background-color: rgb(53, 162, 159); */
     /* background-color: rgb(202, 237, 255); */
-    /* round-color: rgb(142, 172, 205);backg */
+    /* background-color: rgb(142, 172, 205); */
     /* background-color: rgb(100, 204, 197); */
     /* background-color: rgb(100, 153, 233); */
     /* background-color: rgb(39, 55, 77); */
@@ -55,11 +55,13 @@ background-color: #ffff;
     /* background-color: #F3FDE8; */
     /* background-color: #79E0EE; */
     /* background-color: #fff; */
-    background-color: #D2E0FB;
+    /* background-color: rgba(210, 224, 251,.8); */
+    background-color: rgb(25, 23, 23);
     /* background-color: #ffff; */
-    /* border-bottom: 2px solid #F3FDE8; */
+    /* border-bottom: 2px solid #ffff; */
+    /* background-color: rgba(15, 15, 15,.8); */
     box-sizing: border-box;
-    padding: 10px;
+    /* padding: 10px; */
     z-index: 999;
     /* box-shadow: 0 0 3px #F0F0F0; */
 
@@ -68,7 +70,7 @@ background-color: #ffff;
 .brand{
     
     position: absolute;
-    top: -10px;
+    top: 10px;
     left: 50px;
     text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
   
@@ -83,7 +85,11 @@ background-color: #ffff;
 /* background: #FFFFFF; */
 /* text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8; */
 /* filter: drop-shadow(0px -25px 5px rgba(79,79,79,1)); */
-color: #FFF;
+/* color: #FFF; */
+/* color: rgba(15, 15, 15,.5); */
+text-shadow: 0px 6px 4px rgba(51, 51, 51, .5);
+font-family: 'courier_prime_coderegular';
+color: #fff;
                          
     
 }
@@ -94,10 +100,14 @@ color: #FFF;
     /* color: #333; */
 /* background: #333333; */
 /* text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00; */
-color: #FFF;
+/* color: rgba(15, 15, 15,.5); */
 /* background: #FFFFFF; */
 /* text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8; */
 /* filter: drop-shadow(0px -25px 5px rgba(79,79,79,1)); */
+text-shadow: 0px 6px 4px rgba(51, 51, 51, .5);
+/* font-family: 'roboto-thin-webfont'; */
+color: #fff;
+font-family: 'courier_prime_coderegular';
 }
 
 .fotos{
@@ -256,7 +266,7 @@ text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 
 border-radius: 10px;
 position: relative;
 /* top: -454px;  */
-bottom: 20px;
+ bottom: 3px;
 left: 650px;
 box-sizing: border-box;
 background-color: #fff;
@@ -348,28 +358,52 @@ text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 
    }
 
 
-   .cube {
-    transform-style: preserve-3d;
-    perspective: 1000px;
-  }
-  
-  .face {
-    width: 100px;
-    height: 100px;
-    background-color: #000;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  
-  .aseo{
-    background-color: #ffff;
-    width: 100%;
-    height: 500px;
-    box-shadow: 0px 0px 3px #333;
-    /* border: 2px solid #333; */
+   .aseo{
+    height: 400px;
+    background-color: #fff;
+    box-shadow: 0 0 3px 3px #fff;
+    /* border-bottom: 2px solid black; */
+    -webkit-box-shadow: -2px 12px 9px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 12px 9px -8px rgba(0,0,0,0.75);
+    box-shadow: -2px 5px 9px -8px rgba(0,0,0,0.75);
+    /* position: relative; */
+
+
+
     
-  }
+   }
+
+   .aseo h2{
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    font-family: 'courier_prime_coderegular';
+    font-size: 40px;
+   }
+
+   .dunia{
+    position: absolute;
+    top: 180px;
+    left:70px;
+    color: #333;
+    font-family: 'roboto-thin-webfont';
+ }
+
+   .DuniaKode{
+    position: absolute;
+   bottom:210px ;
+    right: 150px;
+    height: 350px;
+    /* height: 400px; */
+    /* opacity: .8; */
+    /* background-size: cover; */
+    /* opacity: .8; */
+    border-radius: 50%;
+    
+   }
+   
+  
+  
  /* .content{
     width: 800px;
     border: 2px solid #000;
@@ -378,5 +412,63 @@ text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 
     left: 60px;
 
  } */
+
+ #web{
+    position: relative;
+   text-align: center;
+   top: 80px;
+    
+ }
+
+ #web h3{
+    font-size: 30px;
+    font-family: 'courier_prime_coderegular';
+    text-shadow: 0px 6px 4px rgba(51, 51, 51, .5);
+    
+
+ }
+
+
+ .batas{
+    position: relative;
+ }
+
+  hr{
+    width: 80px;
+    position: absolute;
+    top: 10px;
+    right: -20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    
+   
+ }
+
+
+  
+ 
+ .belajar{
+    background-color: transparent;
+   padding: 10px;
+   border-radius: 6px;
+   background-color: rgb(25, 23, 23);
+   color: #fff;
+   font-family: 'courier_prime_coderegular';
+   height: 50px;
+   font-size: 12px;
+   position: absolute;
+  top: 250px;
+   left: 65px;
+   transition: 300ms;
+ }
+
+ .belajar:hover{
+    scale: 1.1;
+ }
+
+
+    
+
+
 
   
