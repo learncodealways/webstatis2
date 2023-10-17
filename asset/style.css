@@ -480,7 +480,7 @@ text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 
  }
 
  .footer{
-    height: 200px;
+    height: 50px;
      background-color: rgb(25, 23, 23);
      position: relative;
  }
@@ -519,4 +519,12 @@ text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 
   .art:hover{
     color: #79E0EE;
     font-style: normal;
+  }
+
+  .copy{
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
   }
