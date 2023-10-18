@@ -13,6 +13,7 @@ box-sizing: border-box;
 /* background-color: #F0F0F0; */
 /* background-color: #343a40; */
 background-color: #ffff;
+overflow-x: hidden;
 }
 
 @font-face {
@@ -175,8 +176,11 @@ background-color: #fff;
 /* background-color: #343a40; */
 border: 2px solid  #343a40;
 transition: .8s;
-left: 175px;
-top: 250px;
+/* left: 175px; */
+/* top: 250px; */
+top: 200px;
+left: 145px;
+
 
  }
 .kotak1:hover{
@@ -279,8 +283,9 @@ text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 
 border-radius: 10px;
 position: relative;
 /* top: -454px;  */
- bottom: 3px;
-left: 650px;
+ /* bottom: 3px; */
+ top: 200px;
+right: -600px;
 box-sizing: border-box;
 background-color: #fff;
 border: 2px solid #343a40;
@@ -479,10 +484,14 @@ text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 
     scale: 1.1;
  }
 
- .footer{
+  .footer{ 
     height: 50px;
      background-color: rgb(25, 23, 23);
-     position: relative;
+     position: fixed;
+     z-index: 9999;
+     left: 0;
+     right: 0;
+     bottom: 0;
  }
 
  .sub-footer{
@@ -528,3 +537,16 @@ text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
   }
+
+  main{
+    position: relative;
+    height: 500px;
+    margin-bottom: 50px;
+    overflow: hidden;
+  }
+
+
+  
+
+      
+  
