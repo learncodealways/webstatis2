@@ -377,7 +377,7 @@ text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 
 
 
    .aseo{
-    height: 400px;
+    height: 100vh;
     background-color: #fff;
     box-shadow: 0 0 3px 3px #fff;
     /* border-bottom: 2px solid black; */
